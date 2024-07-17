@@ -1,0 +1,14 @@
+[
+    {
+        "id":0,
+        "q":"How is current Prime Minister of Pakistan?",
+        "options":["Shahbaz Sharif", "Imran Khan", "Zardari" ],
+        "ans":"Shahbaz Sharif"
+    },
+    {
+        "id":1,
+        "q":"How is Former Prime Minister of Pakistan?",
+        "options":["Shahbaz Sharif", "Imran Khan", "Zardari" ],
+        "ans":"Imran Khan"
+    }
+]
