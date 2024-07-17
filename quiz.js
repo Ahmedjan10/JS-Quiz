@@ -1,21 +1,5 @@
 const quiz = document.getElementById('quiz')
 
-// function fetchJsonFile(){
-//     fetch('./quiz.json')
-//     .then(res=>res.json())
-//     .then(json=>{
-//         for (let i=0;i<json.length;i++){
-//         let divQ = document.createElement('h3')
-//         let divAns = document.createElement('p')
-//         divQ.innerText = i+1 + ' - '  + json[i].q 
-//         divAns.innerText = json[i].ans 
-//         quiz.appendChild(divQ)
-//         quiz.appendChild(divAns)
-//         }
-//     }
-//     )
-// }
-
  function fetchJsonFile(idx){
      fetch('./quiz.json')
      .then(res=>res.json())
