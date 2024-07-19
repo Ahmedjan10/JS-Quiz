@@ -3,6 +3,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const showLoginButton = document.getElementById("showLogin");
     const signupForm = document.getElementById("signupForm");
     const loginForm = document.getElementById("loginForm");
+    const path = "JS-Quiz/quiz.html"
 
     showSignupButton.addEventListener("click", function() {
         signupForm.style.display = "block";
@@ -18,7 +19,7 @@ document.addEventListener("DOMContentLoaded", function() {
 window.addEventListener("load",()=>{
     currentUser = localStorage.getItem(username)
     if(currentUser === true){
-        location.pathname = "/quiz.html"
+        location.pathname = path
     }
 })
 
@@ -59,7 +60,7 @@ function login(){
         document.getElementById('message').innerText = 'Username does not exist';
             } else if (storedPassword === password) {
                 document.getElementById('message').innerText ='Login successful!';
-                location.pathname ="/quiz.html"
+                location.pathname = path
            } else {
             document.getElementById('message').innerText = 'Incorrect password';
             }   
