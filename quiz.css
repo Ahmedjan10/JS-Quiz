@@ -1,0 +1,89 @@
+/* quiz.css */
+
+/* General Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #333;
+}
+
+/* Heading Styling */
+h2 {
+    text-align: center;
+    color: #4CAF50;
+}
+
+/* Score Display Styling */
+#score {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Quiz Container Styling */
+.quiz {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    max-width: 600px;
+    width: 100%;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Question Styling */
+.question {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+/* Option List Styling */
+.options {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Individual Option Styling */
+.options li {
+    margin: 10px 0;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+/* Hover Effect for Options */
+.options li:hover {
+    background-color: #e9e9e9;
+    border-color: #ccc;
+}
+
+/* Selected Option Styling */
+.options li.selected {
+    background-color: #4CAF50;
+    color: #fff;
+    border-color: #4CAF50;
+}
+
+/* Correct Option Styling */
+.options li.correct {
+    background-color: #4CAF50;
+    color: #fff;
+    border-color: #4CAF50;
+}
+
+/* Incorrect Option Styling */
+.options li.incorrect {
+    background-color: #F44336;
+    color: #fff;
+    border-color: #F44336;
+}

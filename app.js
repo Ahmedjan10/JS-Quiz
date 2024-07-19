@@ -1,3 +1,19 @@
+document.addEventListener("DOMContentLoaded", function() {
+    const showSignupButton = document.getElementById("showSignup");
+    const showLoginButton = document.getElementById("showLogin");
+    const signupForm = document.getElementById("signupForm");
+    const loginForm = document.getElementById("loginForm");
+
+    showSignupButton.addEventListener("click", function() {
+        signupForm.style.display = "block";
+        loginForm.style.display = "none";
+    });
+
+    showLoginButton.addEventListener("click", function() {
+        loginForm.style.display = "block";
+        signupForm.style.display = "none";
+    });
+});
 
 window.addEventListener("load",()=>{
     currentUser = localStorage.getItem(username)

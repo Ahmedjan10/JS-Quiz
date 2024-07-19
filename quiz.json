@@ -10,5 +10,12 @@
         "q":"How is Former Prime Minister of Pakistan?",
         "options":["Shahbaz Sharif", "Imran Khan", "Zardari" ],
         "ans":"Imran Khan"
+    },
+    {
+        "id":2,
+        "q":"Whis is first human on Earth ever?",
+        "options":["Prophet Adam", "Prophet Noah", "Prophet Jesus" ],
+        "ans":"Prophet Adam"
     }
+
 ]
